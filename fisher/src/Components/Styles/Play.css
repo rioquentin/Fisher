@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .PlayScreen {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+  
+  .ButtonContainer {
+    text-align: center;
+    width: 50%;
+  }
+  
+  .Button {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+
+  .Button:hover {
+    background-color: #0069d9;
+  }
+  
